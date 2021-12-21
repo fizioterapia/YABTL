@@ -79,9 +79,9 @@ p {
 }
 
 .component {
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
 
-  border-radius: 4px;
+  border-radius: 0.25rem;
 
   transition: 0.3s all ease-in-out;
 
@@ -96,14 +96,14 @@ p {
     position: relative;
 
     button {
-      margin: 0 4px;
+      margin: 0 0.25rem;
     }
     float: right;
 
     .dropdown {
       position: absolute;
 
-      padding: 16px 32px;
+      padding: 0.5rem 1rem;
       background: rgba(28, 25, 37, 0.75);
       filter: drop-shadow(1px 1px 25px black);
 
@@ -112,7 +112,7 @@ p {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border-radius: 4px;
+      border-radius: 0.25rem;
 
       z-index: 9999;
 
@@ -125,10 +125,10 @@ p {
       }
 
       button {
-        margin: 8px 0;
+        margin: 0.5rem 0;
         width: 100%;
 
-        padding: 8px 16px;
+        padding: 0.5rem 1rem;
       }
     }
   }

@@ -102,9 +102,7 @@ html {
 
 .logo {
   text-align: center;
-  margin: 32px;
-
-  border-radius: 8px;
+  margin: 2em;
 
   h1,
   p {
@@ -112,7 +110,7 @@ html {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   p {
@@ -125,12 +123,12 @@ div.add {
   align-items: center;
 
   background: #f0f0f0;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   color: #161616;
-  width: 25%;
+  width: clamp(350px, 25%, 600px);
 
   input {
-    padding-left: 16px;
+    padding-left: 1rem;
     width: 100%;
     height: 3em;
   }
@@ -153,14 +151,14 @@ button {
   align-items: center;
   justify-content: center;
   background: #f0f0f0;
-  padding: 12px 24px;
-  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
   color: #161616;
-  margin: 4px;
+  margin: 0.25rem;
 }
 
 button.icon {
-  padding: 6px;
+  padding: 1rem;
   font-size: 1em;
   width: 2em;
   height: 2em;
@@ -172,7 +170,7 @@ ul {
   margin: 0;
 
   li {
-    margin: 16px 0;
+    margin: 1rem 0;
   }
 }
 
@@ -181,7 +179,7 @@ button:hover {
 }
 
 ul {
-  width: 25%;
+  width: clamp(350px, 25%, 600px);
 }
 
 .component {
