@@ -3,7 +3,7 @@
 ## Yet Another Boring Todo List
 
 Another TODO application written using Vue.js and JavaScript.  
-Preview: https://fizi.pw/YABTL/
+Preview: https://fizi.pw/yabtl/
 
 #### Project setup
 
