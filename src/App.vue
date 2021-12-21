@@ -119,13 +119,15 @@ html {
 }
 
 div.add {
+  margin: 16px auto;
+
   display: flex;
   align-items: center;
 
   background: #f0f0f0;
   border-radius: 0.25rem;
   color: #161616;
-  width: clamp(350px, 25%, 600px);
+  width: clamp(300px, 25%, 600px);
 
   input {
     padding-left: 1rem;
@@ -167,10 +169,17 @@ button.icon {
 ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
 
   li {
-    margin: 1rem 0;
+    margin: 0.75rem 0;
+    width: 100%;
   }
 }
 
@@ -179,7 +188,7 @@ button:hover {
 }
 
 ul {
-  width: clamp(350px, 25%, 600px);
+  width: clamp(300px, 25%, 600px);
 }
 
 .component {
@@ -203,14 +212,11 @@ li:last-child > .component .buttons .move-down {
 }
 
 #app {
+  display: inline-block;
+
   width: 100%;
   height: 100%;
 
   margin: 0px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 </style>
